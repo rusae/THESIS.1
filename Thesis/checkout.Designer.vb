@@ -40,36 +40,36 @@ Partial Class checkout
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Cooper Black", 15.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(72, 29)
+        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 15.75!)
+        Me.Label2.Location = New System.Drawing.Point(83, 9)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(113, 24)
+        Me.Label2.Size = New System.Drawing.Size(100, 30)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Checkout"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Cooper Black", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(37, 83)
+        Me.Label3.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Label3.Location = New System.Drawing.Point(45, 56)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(86, 19)
+        Me.Label3.Size = New System.Drawing.Size(77, 21)
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "Room no."
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(129, 82)
+        Me.TextBox1.Location = New System.Drawing.Point(128, 57)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(100, 20)
         Me.TextBox1.TabIndex = 5
         '
         'Button1
         '
-        Me.Button1.Font = New System.Drawing.Font("Cooper Black", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(76, 123)
+        Me.Button1.Font = New System.Drawing.Font("Segoe UI", 9.75!)
+        Me.Button1.Location = New System.Drawing.Point(88, 101)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(86, 25)
+        Me.Button1.Size = New System.Drawing.Size(95, 25)
         Me.Button1.TabIndex = 6
         Me.Button1.Text = "Checkout"
         Me.Button1.UseVisualStyleBackColor = True
@@ -86,7 +86,7 @@ Partial Class checkout
         Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "checkout"
-        Me.Text = "checkout form"
+        Me.Text = "Checkout Form"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

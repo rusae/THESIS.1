@@ -111,170 +111,170 @@ Partial Class Transaction
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Calibri", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(46, 85)
+        Me.Label5.Font = New System.Drawing.Font("Segoe UI", 12.25!)
+        Me.Label5.Location = New System.Drawing.Point(32, 84)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(80, 19)
+        Me.Label5.Size = New System.Drawing.Size(91, 23)
         Me.Label5.TabIndex = 4
         Me.Label5.Text = "Last Name"
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Calibri", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(46, 111)
+        Me.Label6.Font = New System.Drawing.Font("Segoe UI", 12.25!)
+        Me.Label6.Location = New System.Drawing.Point(32, 110)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(82, 19)
+        Me.Label6.Size = New System.Drawing.Size(92, 23)
         Me.Label6.TabIndex = 5
         Me.Label6.Text = "First Name"
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Calibri", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(46, 137)
+        Me.Label7.Font = New System.Drawing.Font("Segoe UI", 12.25!)
+        Me.Label7.Location = New System.Drawing.Point(32, 136)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(61, 19)
+        Me.Label7.Size = New System.Drawing.Size(70, 23)
         Me.Label7.TabIndex = 6
         Me.Label7.Text = "Address"
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Calibri", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(46, 270)
+        Me.Label8.Font = New System.Drawing.Font("Segoe UI", 12.25!)
+        Me.Label8.Location = New System.Drawing.Point(32, 269)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(59, 19)
+        Me.Label8.Size = New System.Drawing.Size(68, 23)
         Me.Label8.TabIndex = 7
         Me.Label8.Text = "ID Type"
         '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Calibri", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(46, 293)
+        Me.Label9.Font = New System.Drawing.Font("Segoe UI", 12.25!)
+        Me.Label9.Location = New System.Drawing.Point(32, 292)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(81, 19)
+        Me.Label9.Size = New System.Drawing.Size(95, 23)
         Me.Label9.TabIndex = 8
         Me.Label9.Text = "ID Number"
         '
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Calibri", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(46, 395)
+        Me.Label10.Font = New System.Drawing.Font("Segoe UI", 12.25!)
+        Me.Label10.Location = New System.Drawing.Point(32, 394)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(92, 19)
+        Me.Label10.Size = New System.Drawing.Size(106, 23)
         Me.Label10.TabIndex = 9
         Me.Label10.Text = "Vehicle Type"
         '
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Calibri", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(46, 423)
+        Me.Label11.Font = New System.Drawing.Font("Segoe UI", 12.25!)
+        Me.Label11.Location = New System.Drawing.Point(32, 422)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(94, 19)
+        Me.Label11.Size = New System.Drawing.Size(111, 23)
         Me.Label11.TabIndex = 10
         Me.Label11.Text = "Vehicle Color"
         '
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Font = New System.Drawing.Font("Calibri", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(46, 449)
+        Me.Label12.Font = New System.Drawing.Font("Segoe UI", 12.25!)
+        Me.Label12.Location = New System.Drawing.Point(32, 448)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(71, 19)
+        Me.Label12.Size = New System.Drawing.Size(80, 23)
         Me.Label12.TabIndex = 11
         Me.Label12.Text = "Plate No."
         '
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Font = New System.Drawing.Font("Calibri", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(596, 109)
+        Me.Label13.Font = New System.Drawing.Font("Segoe UI", 12.25!)
+        Me.Label13.Location = New System.Drawing.Point(582, 108)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(83, 19)
+        Me.Label13.Size = New System.Drawing.Size(96, 23)
         Me.Label13.TabIndex = 12
         Me.Label13.Text = "Room Type"
         '
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Font = New System.Drawing.Font("Calibri", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(596, 135)
+        Me.Label14.Font = New System.Drawing.Font("Segoe UI", 12.25!)
+        Me.Label14.Location = New System.Drawing.Point(582, 134)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(70, 19)
+        Me.Label14.Size = New System.Drawing.Size(83, 23)
         Me.Label14.TabIndex = 13
         Me.Label14.Text = "Room No"
         '
         'Label17
         '
         Me.Label17.AutoSize = True
-        Me.Label17.Font = New System.Drawing.Font("Calibri", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(596, 218)
+        Me.Label17.Font = New System.Drawing.Font("Segoe UI", 12.25!)
+        Me.Label17.Location = New System.Drawing.Point(582, 217)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(100, 19)
+        Me.Label17.Size = New System.Drawing.Size(117, 23)
         Me.Label17.TabIndex = 16
         Me.Label17.Text = "Check In Date"
         '
         'Label18
         '
         Me.Label18.AutoSize = True
-        Me.Label18.Font = New System.Drawing.Font("Calibri", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(596, 243)
+        Me.Label18.Font = New System.Drawing.Font("Segoe UI", 12.25!)
+        Me.Label18.Location = New System.Drawing.Point(582, 242)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(113, 19)
+        Me.Label18.Size = New System.Drawing.Size(131, 23)
         Me.Label18.TabIndex = 17
         Me.Label18.Text = "Check Out Date"
         '
         'Label19
         '
         Me.Label19.AutoSize = True
-        Me.Label19.Font = New System.Drawing.Font("Calibri", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(596, 270)
+        Me.Label19.Font = New System.Drawing.Font("Segoe UI", 12.25!)
+        Me.Label19.Location = New System.Drawing.Point(582, 269)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(78, 19)
+        Me.Label19.Size = New System.Drawing.Size(89, 23)
         Me.Label19.TabIndex = 18
         Me.Label19.Text = "Total Days"
         '
         'Label20
         '
         Me.Label20.AutoSize = True
-        Me.Label20.Font = New System.Drawing.Font("Calibri", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.Location = New System.Drawing.Point(596, 296)
+        Me.Label20.Font = New System.Drawing.Font("Segoe UI", 12.25!)
+        Me.Label20.Location = New System.Drawing.Point(582, 295)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(65, 19)
+        Me.Label20.Size = New System.Drawing.Size(77, 23)
         Me.Label20.TabIndex = 19
         Me.Label20.Text = "SubTotal"
         '
         'Label21
         '
         Me.Label21.AutoSize = True
-        Me.Label21.Font = New System.Drawing.Font("Calibri", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.Location = New System.Drawing.Point(596, 322)
+        Me.Label21.Font = New System.Drawing.Font("Segoe UI", 12.25!)
+        Me.Label21.Location = New System.Drawing.Point(582, 321)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(66, 19)
+        Me.Label21.Size = New System.Drawing.Size(77, 23)
         Me.Label21.TabIndex = 20
         Me.Label21.Text = "Discount"
         '
         'Label22
         '
         Me.Label22.AutoSize = True
-        Me.Label22.Font = New System.Drawing.Font("Calibri", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.Location = New System.Drawing.Point(596, 348)
+        Me.Label22.Font = New System.Drawing.Font("Segoe UI", 12.25!)
+        Me.Label22.Location = New System.Drawing.Point(582, 347)
         Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(108, 19)
+        Me.Label22.Size = New System.Drawing.Size(125, 23)
         Me.Label22.TabIndex = 21
         Me.Label22.Text = "Ammount Paid"
         '
         'Label23
         '
         Me.Label23.AutoSize = True
-        Me.Label23.Font = New System.Drawing.Font("Calibri", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.Location = New System.Drawing.Point(596, 374)
+        Me.Label23.Font = New System.Drawing.Font("Segoe UI", 12.25!)
+        Me.Label23.Location = New System.Drawing.Point(582, 373)
         Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(61, 19)
+        Me.Label23.Size = New System.Drawing.Size(69, 23)
         Me.Label23.TabIndex = 22
         Me.Label23.Text = "Balance"
         '
@@ -302,10 +302,10 @@ Partial Class Transaction
         'Label24
         '
         Me.Label24.AutoSize = True
-        Me.Label24.Font = New System.Drawing.Font("Calibri", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.Location = New System.Drawing.Point(46, 163)
+        Me.Label24.Font = New System.Drawing.Font("Segoe UI", 12.25!)
+        Me.Label24.Location = New System.Drawing.Point(32, 162)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(89, 19)
+        Me.Label24.Size = New System.Drawing.Size(105, 23)
         Me.Label24.TabIndex = 26
         Me.Label24.Text = "Contact Info"
         '
