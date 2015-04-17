@@ -65,3 +65,7 @@ C:\Users\Adrian\Documents\git\THESIS.1\Thesis\obj\x86\Debug\Thesis.Transaction.r
 C:\Users\Adrian\Documents\git\THESIS.1\Thesis\obj\x86\Debug\Thesis.vbproj.GenerateResource.Cache
 C:\Users\Adrian\Documents\git\THESIS.1\Thesis\obj\x86\Debug\Thesis.vbprojResolveAssemblyReference.cache
 C:\Users\Adrian\Documents\git\THESIS.1\Thesis\bin\Debug\MySql.Data.Entity.EF6.dll
+H:\thesis\THESIS.1\Thesis\bin\Debug\MySql.Data.Entity.EF6.dll
+H:\thesis\THESIS.1\Thesis\obj\x86\Debug\Thesis.vbprojResolveAssemblyReference.cache
+H:\thesis\THESIS.1\Thesis\obj\x86\Debug\Thesis.changepass.resources
+H:\thesis\THESIS.1\Thesis\obj\x86\Debug\Thesis.Form2.resources

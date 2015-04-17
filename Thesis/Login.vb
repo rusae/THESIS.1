@@ -2,7 +2,7 @@
 
 
 Public Class LogIn
-    Private cs As String = "Database=hmsystem; Data Source=localhost; User Id=root; Password=nothing"
+    Private cs As String = "Database=hmsystem; Data Source=localhost; User Id=root; Password=root"
     Private conn As New MySqlConnection(cs)
     Private cmd As MySqlCommand
     Private da As New MySqlDataAdapter
@@ -36,7 +36,7 @@ Public Class LogIn
                 If dt.Rows(0).Item(3) = tbPassword.Text Then
                     MsgBox("Welcome " & tbUname.Text, MsgBoxStyle.Information)
                     Me.Hide()
-                    Transaction.Show()
+                    MDIParent1.Show()
                 Else
                     MsgBox("Incorrect Password", MsgBoxStyle.Exclamation)
                 End If

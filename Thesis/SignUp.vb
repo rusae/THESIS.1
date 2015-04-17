@@ -2,7 +2,7 @@
 Imports System.Text.RegularExpressions
 
 Public Class SignUp
-    Private cs As String = "Database=hmsystem; Data Source=localhost; User Id=root; Password=nothing"
+    Private cs As String = "Database=hmsystem; Data Source=localhost; User Id=root; Password=root"
     Private conn As New MySqlConnection(cs)
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
         Me.Close()

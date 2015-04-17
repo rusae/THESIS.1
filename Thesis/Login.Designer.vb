@@ -35,10 +35,10 @@ Partial Class LogIn
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Segoe WP", 20.25!)
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!)
         Me.Label1.Location = New System.Drawing.Point(77, 32)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(152, 37)
+        Me.Label1.Size = New System.Drawing.Size(150, 31)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Login Form"
         '
@@ -53,6 +53,7 @@ Partial Class LogIn
         '
         Me.tbPassword.Location = New System.Drawing.Point(117, 117)
         Me.tbPassword.Name = "tbPassword"
+        Me.tbPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.tbPassword.Size = New System.Drawing.Size(177, 22)
         Me.tbPassword.TabIndex = 2
         '

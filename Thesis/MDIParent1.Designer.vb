@@ -25,11 +25,9 @@ Partial Class MDIParent1
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.MenuStrip = New System.Windows.Forms.MenuStrip()
-        Me.FileMenu = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EditMenu = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CheckInToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CheckOutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CancelTransactionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CheckInToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CheckOutToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CancelTransactionToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.SettingsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ChangePasswordToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LogOutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -39,44 +37,30 @@ Partial Class MDIParent1
         '
         'MenuStrip
         '
-        Me.MenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileMenu, Me.EditMenu, Me.SettingsToolStripMenuItem})
+        Me.MenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CheckInToolStripMenuItem1, Me.CheckOutToolStripMenuItem1, Me.CancelTransactionToolStripMenuItem1, Me.SettingsToolStripMenuItem})
         Me.MenuStrip.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip.Name = "MenuStrip"
         Me.MenuStrip.Size = New System.Drawing.Size(632, 24)
         Me.MenuStrip.TabIndex = 5
         Me.MenuStrip.Text = "MenuStrip"
         '
-        'FileMenu
+        'CheckInToolStripMenuItem1
         '
-        Me.FileMenu.ImageTransparentColor = System.Drawing.SystemColors.ActiveBorder
-        Me.FileMenu.Name = "FileMenu"
-        Me.FileMenu.Size = New System.Drawing.Size(109, 20)
-        Me.FileMenu.Text = "&File Maintenance"
+        Me.CheckInToolStripMenuItem1.Name = "CheckInToolStripMenuItem1"
+        Me.CheckInToolStripMenuItem1.Size = New System.Drawing.Size(65, 20)
+        Me.CheckInToolStripMenuItem1.Text = "&Check In"
         '
-        'EditMenu
+        'CheckOutToolStripMenuItem1
         '
-        Me.EditMenu.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CheckInToolStripMenuItem, Me.CheckOutToolStripMenuItem, Me.CancelTransactionToolStripMenuItem})
-        Me.EditMenu.Name = "EditMenu"
-        Me.EditMenu.Size = New System.Drawing.Size(81, 20)
-        Me.EditMenu.Text = "&Transaction"
+        Me.CheckOutToolStripMenuItem1.Name = "CheckOutToolStripMenuItem1"
+        Me.CheckOutToolStripMenuItem1.Size = New System.Drawing.Size(75, 20)
+        Me.CheckOutToolStripMenuItem1.Text = "Check &Out"
         '
-        'CheckInToolStripMenuItem
+        'CancelTransactionToolStripMenuItem1
         '
-        Me.CheckInToolStripMenuItem.Name = "CheckInToolStripMenuItem"
-        Me.CheckInToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
-        Me.CheckInToolStripMenuItem.Text = "&Check In"
-        '
-        'CheckOutToolStripMenuItem
-        '
-        Me.CheckOutToolStripMenuItem.Name = "CheckOutToolStripMenuItem"
-        Me.CheckOutToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
-        Me.CheckOutToolStripMenuItem.Text = "Check &Out"
-        '
-        'CancelTransactionToolStripMenuItem
-        '
-        Me.CancelTransactionToolStripMenuItem.Name = "CancelTransactionToolStripMenuItem"
-        Me.CancelTransactionToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
-        Me.CancelTransactionToolStripMenuItem.Text = "C&ancel Transaction"
+        Me.CancelTransactionToolStripMenuItem1.Name = "CancelTransactionToolStripMenuItem1"
+        Me.CancelTransactionToolStripMenuItem1.Size = New System.Drawing.Size(120, 20)
+        Me.CancelTransactionToolStripMenuItem1.Text = "C&ancel Transaction"
         '
         'SettingsToolStripMenuItem
         '
@@ -115,13 +99,11 @@ Partial Class MDIParent1
     End Sub
     Friend WithEvents ToolTip As System.Windows.Forms.ToolTip
     Friend WithEvents MenuStrip As System.Windows.Forms.MenuStrip
-    Friend WithEvents FileMenu As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents EditMenu As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents CheckInToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents CheckOutToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents CancelTransactionToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents SettingsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ChangePasswordToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents LogOutToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents CheckInToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents CheckOutToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents CancelTransactionToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
 
 End Class

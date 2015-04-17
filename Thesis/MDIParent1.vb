@@ -11,11 +11,18 @@ Public Class MDIParent1
         Me.Close()
     End Sub
 
-    Private Sub CheckOutToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles CheckOutToolStripMenuItem.Click
-        checkout.Show()
+    Private Sub CheckInToolStripMenuItem1_Click(sender As System.Object, e As System.EventArgs) Handles CheckInToolStripMenuItem1.Click
+        Transaction.Show()
+
     End Sub
 
-    Private Sub CheckInToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles CheckInToolStripMenuItem.Click
-        Transaction.Show()
+    Private Sub CheckOutToolStripMenuItem1_Click(sender As System.Object, e As System.EventArgs) Handles CheckOutToolStripMenuItem1.Click
+        checkout.Show()
+
+    End Sub
+
+    Private Sub CancelTransactionToolStripMenuItem1_Click(sender As System.Object, e As System.EventArgs) Handles CancelTransactionToolStripMenuItem1.Click
+        Form2.Show()
+
     End Sub
 End Class
